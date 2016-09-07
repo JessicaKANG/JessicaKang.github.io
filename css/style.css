@@ -1463,7 +1463,7 @@ a {
   line-height: 22.400000000000002px;
 }
 .article-entry .highlight .gutter pre,
-.article-entry .gist .gist-file .gist-data .line-numbers {
+.gist .gist-file .gist-data .line-numbers {
   color: #666;
 }
 .article-entry pre,
@@ -1526,9 +1526,8 @@ a {
 }
 .article-entry .highlight .line {
   font-size: 15px;
-  height: 15px;
 }
-.article-entry .gist {
+.gist {
   margin: 0 -20px;
   border-style: solid;
   border-color: #ddd;
@@ -1536,29 +1535,29 @@ a {
   background: #272822;
   padding: 15px 20px 15px 0;
 }
-.article-entry .gist .gist-file {
+.gist .gist-file {
   border: none;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   margin: 0;
 }
-.article-entry .gist .gist-file .gist-data {
+.gist .gist-file .gist-data {
   background: none;
   border: none;
 }
-.article-entry .gist .gist-file .gist-data .line-numbers {
+.gist .gist-file .gist-data .line-numbers {
   background: none;
   border: none;
   padding: 0 20px 0 0;
 }
-.article-entry .gist .gist-file .gist-data .line-data {
+.gist .gist-file .gist-data .line-data {
   padding: 0 !important;
 }
-.article-entry .gist .gist-file .highlight {
+.gist .gist-file .highlight {
   margin: 0;
   padding: 0;
   border: none;
 }
-.article-entry .gist .gist-file .gist-meta {
+.gist .gist-file .gist-meta {
   background: #272822;
   color: highlight-comment;
   font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1567,11 +1566,11 @@ a {
   margin-top: 1em;
   margin-left: 20px;
 }
-.article-entry .gist .gist-file .gist-meta a {
+.gist .gist-file .gist-meta a {
   color: #258fb8;
   font-weight: normal;
 }
-.article-entry .gist .gist-file .gist-meta a:hover {
+.gist .gist-file .gist-meta a:hover {
   text-decoration: underline;
 }
 pre .comment {
