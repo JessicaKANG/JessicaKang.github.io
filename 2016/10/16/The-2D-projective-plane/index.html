@@ -84,16 +84,22 @@
 
 
 
-<meta name="description" content="第一次试用Haroopad, Markdown编辑器。Logo很可爱，虽然我还不知道Markdown语言是什么意思。。再接再厉">
+<meta name="description" content="In this section we introduce the homogeneous notation for points and lines on a plane.
+
+0.区分行(Row)列(Column)向量后面我们要讨论的是向量空间(vector spaces)的线性映射(linear mappings)，我们把这种映射表示为矩阵(matrices)。一个矩阵和一个向量的乘积是另一个">
 <meta property="og:type" content="article">
-<meta property="og:title" content="First Blog">
-<meta property="og:url" content="http://yoursite.com/2016/08/28/First-Blog/index.html">
+<meta property="og:title" content="The 2D projective plane">
+<meta property="og:url" content="http://yoursite.com/2016/10/16/The-2D-projective-plane/index.html">
 <meta property="og:site_name" content="Jessica Kang">
-<meta property="og:description" content="第一次试用Haroopad, Markdown编辑器。Logo很可爱，虽然我还不知道Markdown语言是什么意思。。再接再厉">
-<meta property="og:updated_time" content="2016-09-22T08:13:48.000Z">
+<meta property="og:description" content="In this section we introduce the homogeneous notation for points and lines on a plane.
+
+0.区分行(Row)列(Column)向量后面我们要讨论的是向量空间(vector spaces)的线性映射(linear mappings)，我们把这种映射表示为矩阵(matrices)。一个矩阵和一个向量的乘积是另一个">
+<meta property="og:updated_time" content="2016-10-16T21:45:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="First Blog">
-<meta name="twitter:description" content="第一次试用Haroopad, Markdown编辑器。Logo很可爱，虽然我还不知道Markdown语言是什么意思。。再接再厉">
+<meta name="twitter:title" content="The 2D projective plane">
+<meta name="twitter:description" content="In this section we introduce the homogeneous notation for points and lines on a plane.
+
+0.区分行(Row)列(Column)向量后面我们要讨论的是向量空间(vector spaces)的线性映射(linear mappings)，我们把这种映射表示为矩阵(matrices)。一个矩阵和一个向量的乘积是另一个">
 
 
 
@@ -114,9 +120,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/08/28/First-Blog/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/10/16/The-2D-projective-plane/"/>
 
-  <title> First Blog | Jessica Kang </title>
+  <title> The 2D projective plane | Jessica Kang </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -225,7 +231,7 @@
   
   
 
-  <article class="post post-type-tags " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
       <header class="post-header">
@@ -236,7 +242,7 @@
             
             
               
-                First Blog
+                The 2D projective plane
               
             
           </h1>
@@ -248,8 +254,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-28T03:51:36+02:00" content="2016-08-28">
-              2016-08-28
+            <time itemprop="dateCreated" datetime="2016-10-16T14:39:57+02:00" content="2016-10-16">
+              2016-10-16
             </time>
           </span>
 
@@ -259,8 +265,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/08/28/First-Blog/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/28/First-Blog/" itemprop="commentsCount"></span>
+                <a href="/2016/10/16/The-2D-projective-plane/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/16/The-2D-projective-plane/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -283,7 +289,30 @@
       
 
       
-        <p>第一次试用Haroopad, Markdown编辑器。Logo很可爱，虽然我还不知道Markdown语言是什么意思。。再接再厉</p>
+        <blockquote>
+<p>In this section we introduce the homogeneous notation for points and lines on a plane.</p>
+</blockquote>
+<h3 id="0-区分行-Row-列-Column-向量"><a href="#0-区分行-Row-列-Column-向量" class="headerlink" title="0.区分行(Row)列(Column)向量"></a>0.区分行(Row)列(Column)向量</h3><p>后面我们要讨论的是向量空间(vector spaces)的线性映射(linear mappings)，我们把这种映射表示为矩阵(matrices)。一个矩阵和一个向量的乘积是另一个向量，即在该映射下的图形(image)。由于映射过程中可能有两种情况：列向量右乘一个矩阵，或行向量左乘一个矩阵。此处我们将行向量和列向量的表示方式作如下区分：<br>粗体符号用于表示列向量，例如:<br>$\boldsymbol{x}$</p>
+<p>它的转置(transpose)表示行向量，例如：<br>$\boldsymbol{x^T}$</p>
+<p>为了与此原则保持一致，我们将平面上的点记为列向量：<br>$\boldsymbol{x}=(x,y)^T$</p>
+<h3 id="1-Points-and-Lines-的齐次-Homogeneous-表示"><a href="#1-Points-and-Lines-的齐次-Homogeneous-表示" class="headerlink" title="1.Points and Lines 的齐次(Homogeneous)表示"></a>1.Points and Lines 的齐次(Homogeneous)表示</h3><p>首先解释齐次的含义，</p>
+<blockquote>
+<p>In fact, two such vectors related by an overall scaling are considered as being equivalent. An equivalence class of vectors under this equivalence relationship is known as a homogeneous vector.</p>
+</blockquote>
+<p>举例来说，直线x + by + c = 0，可表示为向量形式：<br>$(a,b,c)^T$</p>
+<p>直线 (ka)x + (kb)y + (kc) = 0，向量表示：<br>$k(a,b,c)^T$</p>
+<p>当k不为0的情况下，两条直线被认为是相同的(same)。由此我们认为：有一个整体比例关联起来的两个向量是等价的(equivalence)。在这种等价关系下，一类等价的向量被定义为齐次向量(homogeneous vector)，表示为一个特定向量：<br>$(a,b,c)^T$</p>
+<p>定义等价类向量的集合，即齐次向量集合，为投影空间(projective space)。表示为：<br>$\mathbb{P^2}=\mathbb{R^3}-(0,0,0)^T$</p>
+<p>注：由于向量(0,0,0)^T^不表示任何直线，所以被排除。</p>
+<p>通过上述讨论，我们将直线表示为齐次坐标系中的3-vector。下面讨论如何在齐次坐标系中用一个3-vector表示点(Point)。<br>我们已知，一个点 <strong>x</strong>=(x,y)^T^ 在直线 <strong>l</strong>=(a,b,c)^T^ 上，当且仅当ax+by+c = 0。这个等式可通过向量的内积(inner product)表示为 (x,y,1)(a,b,c)^T^=(x,y,1)<strong>l</strong>=<strong>x</strong>.<strong>l</strong>=0，这样点(x,y)^T^就被表示成了一个3-vector (x,y,1)。注意，对于任意不为0的常数k，等式 (kx,ky,k)<strong>l</strong>=0 都成立。所以正如直线一样，点也可以被表示为等价向量的集合，也就是齐次向量。不难发现任意一个齐次向量表示的点<strong>x</strong>=(x<em>1</em>,x<em>2</em>,x<em>3</em>)，表示的是笛卡尔坐标系中的点(x<em>1</em>/x<em>3</em>,x<em>2</em>/x<em>3</em>)^T^。</p>
+<h3 id="2-齐次坐标系中点与线的关系"><a href="#2-齐次坐标系中点与线的关系" class="headerlink" title="2.齐次坐标系中点与线的关系"></a>2.齐次坐标系中点与线的关系</h3><blockquote>
+<p>Result 2.1. The point <strong>x</strong> lies on the line <strong>l</strong> if and only if <strong>x^T^l</strong> = 0.</p>
+</blockquote>
+<p>点在直线上（直线经过某点）有三种表示方法：<strong>x^T^l</strong>=<strong>l^T^x</strong>=<strong>x</strong>.<strong>l</strong>=0，比较常用的是第二种，即 <strong>l^T^x</strong>。</p>
+<blockquote>
+<p>Result 2.2. The intersection of two lines <strong>l</strong> and <strong>l′</strong>is the point <strong>x</strong> = <strong>l</strong> × <strong>l′</strong>.<br>Result 2.3. The line through two points <strong>x</strong> and <strong>x′</strong>is <strong>l</strong> = <strong>x</strong> × <strong>x′</strong>.</p>
+</blockquote>
+<p>证明2.2.：根据右手定则，两向量的叉乘结果是与两向量都垂直的向量。所以，已知直线向量<strong>l</strong>和<strong>l’</strong>叉乘所得向量为<strong>x</strong>，可知<strong>l</strong>.<strong>x</strong>=0 且<strong>l’</strong>.<strong>x</strong>=0，即<strong>x</strong>同时存在于两条直线上，可知<strong>x</strong>为两直线交点。同理可证2.3.</p>
 
       
     </div>
@@ -309,13 +338,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/08/28/First-Blog/" rel="next" title="First Blog">
+                <i class="fa fa-chevron-left"></i> First Blog
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/10/16/The-2D-projective-plane/" rel="prev" title="The 2D projective plane">
-                The 2D projective plane <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -330,10 +359,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/08/28/First-Blog/"
-     data-title="First Blog"
+        <div class="ds-share flat" data-thread-key="2016/10/16/The-2D-projective-plane/"
+     data-title="The 2D projective plane"
      data-content=""
-     data-url="http://yoursite.com/2016/08/28/First-Blog/">
+     data-url="http://yoursite.com/2016/10/16/The-2D-projective-plane/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -360,8 +389,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/08/28/First-Blog/"
-           data-title="First Blog" data-url="http://yoursite.com/2016/08/28/First-Blog/">
+      <div class="ds-thread" data-thread-key="2016/10/16/The-2D-projective-plane/"
+           data-title="The 2D projective plane" data-url="http://yoursite.com/2016/10/16/The-2D-projective-plane/">
       </div>
     
   </div>
@@ -438,7 +467,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#0-区分行-Row-列-Column-向量"><span class="nav-number">1.</span> <span class="nav-text">0.区分行(Row)列(Column)向量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Points-and-Lines-的齐次-Homogeneous-表示"><span class="nav-number">2.</span> <span class="nav-text">1.Points and Lines 的齐次(Homogeneous)表示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-齐次坐标系中点与线的关系"><span class="nav-number">3.</span> <span class="nav-text">2.齐次坐标系中点与线的关系</span></a></li></ol></div>
             
           </div>
         </section>
