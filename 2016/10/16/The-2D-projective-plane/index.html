@@ -94,7 +94,7 @@
 <meta property="og:description" content="In this section we introduce the homogeneous notation for points and lines on a plane.
 
 区分行(Row)列(Column)向量后面我们要讨论的是向量空间(vector spaces)的线性映射(linear mappings)，我们把这种映射表示为矩阵(matrices)。一个矩阵和一个向量的乘积是另一个向量">
-<meta property="og:updated_time" content="2016-10-16T21:49:57.000Z">
+<meta property="og:updated_time" content="2016-10-16T22:11:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The 2D projective plane">
 <meta name="twitter:description" content="In this section we introduce the homogeneous notation for points and lines on a plane.
@@ -303,12 +303,12 @@
 <p>直线 (ka)x + (kb)y + (kc) = 0，向量表示：<br>$k(a,b,c)^T$</p>
 <p>当k不为0的情况下，两条直线被认为是相同的(same)。由此我们认为：有一个整体比例关联起来的两个向量是等价的(equivalence)。在这种等价关系下，一类等价的向量被定义为齐次向量(homogeneous vector)，表示为一个特定向量：<br>$(a,b,c)^T$</p>
 <p>定义等价类向量的集合，即齐次向量集合，为投影空间(projective space)。表示为：<br>$\mathbb{P^2}=\mathbb{R^3}-(0,0,0)^T$</p>
-<p>注：由于向量(0,0,0)^T^不表示任何直线，所以被排除。</p>
-<p>通过上述讨论，我们将直线表示为齐次坐标系中的3-vector。下面讨论如何在齐次坐标系中用一个3-vector表示点(Point)。<br>我们已知，一个点 <strong>x</strong>=(x,y)^T^ 在直线 <strong>l</strong>=(a,b,c)^T^ 上，当且仅当ax+by+c = 0。这个等式可通过向量的内积(inner product)表示为 (x,y,1)(a,b,c)^T^=(x,y,1)<strong>l</strong>=<strong>x</strong>.<strong>l</strong>=0，这样点(x,y)^T^就被表示成了一个3-vector (x,y,1)。注意，对于任意不为0的常数k，等式 (kx,ky,k)<strong>l</strong>=0 都成立。所以正如直线一样，点也可以被表示为等价向量的集合，也就是齐次向量。不难发现任意一个齐次向量表示的点<strong>x</strong>=(x<em>1</em>,x<em>2</em>,x<em>3</em>)，表示的是笛卡尔坐标系中的点(x<em>1</em>/x<em>3</em>,x<em>2</em>/x<em>3</em>)^T^。</p>
+<p>注：由于向量(0,0,0)<sup>T</sup>不表示任何直线，所以被排除。</p>
+<p>通过上述讨论，我们将直线表示为齐次坐标系中的3-vector。下面讨论如何在齐次坐标系中用一个3-vector表示点(Point)。<br>我们已知，一个点 <strong>x</strong>=(x,y)<sup>T</sup> 在直线 <strong>l</strong>=(a,b,c)<sup>T</sup> 上，当且仅当ax+by+c = 0。这个等式可通过向量的内积(inner product)表示为 (x,y,1)(a,b,c)<sup>T</sup>=(x,y,1)<strong>l</strong>=<strong>x</strong>.<strong>l</strong>=0，这样点(x,y)<strong><sup>T</sup></strong>就被表示成了一个3-vector (x,y,1)<sup>T</sup>。注意，对于任意不为0的常数k，等式 (kx,ky,k)<strong>l</strong>=0 都成立。所以正如直线一样，点也可以被表示为等价向量的集合，也就是齐次向量。不难发现任意一个齐次向量表示的点<strong>x</strong>=(x<sub>1</sub>,x<sub>2</sub>,x<sub>3</sub>)，表示的是笛卡尔坐标系中的点(x<sub>1</sub>/x<sub>3</sub>,x<sub>2</sub>/x<sub>3</sub>)<sup>T</sup>。</p>
 <h3 id="齐次坐标系中点与线的关系"><a href="#齐次坐标系中点与线的关系" class="headerlink" title="齐次坐标系中点与线的关系"></a>齐次坐标系中点与线的关系</h3><blockquote>
-<p>Result 2.1. The point <strong>x</strong> lies on the line <strong>l</strong> if and only if <strong>x^T^l</strong> = 0.</p>
+<p>Result 2.1. The point <strong>x</strong> lies on the line <strong>l</strong> if and only if <strong>x<sup>T</sup>l</strong> = 0.</p>
 </blockquote>
-<p>点在直线上（直线经过某点）有三种表示方法：<strong>x^T^l</strong>=<strong>l^T^x</strong>=<strong>x</strong>.<strong>l</strong>=0，比较常用的是第二种，即 <strong>l^T^x</strong>。</p>
+<p>点在直线上（直线经过某点）有三种表示方法：<strong>x<sup>T</sup>l</strong>=<strong>l<sup>T</sup>x</strong>=<strong>x</strong>.<strong>l</strong>=0，比较常用的是第二种，即 <strong>l<sup>T</sup>x</strong>。</p>
 <blockquote>
 <p>Result 2.2. The intersection of two lines <strong>l</strong> and <strong>l′</strong>is the point <strong>x</strong> = <strong>l</strong> × <strong>l′</strong>.<br>Result 2.3. The line through two points <strong>x</strong> and <strong>x′</strong>is <strong>l</strong> = <strong>x</strong> × <strong>x′</strong>.</p>
 </blockquote>
