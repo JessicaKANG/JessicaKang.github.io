@@ -151,12 +151,12 @@
 		/* Profile Section */
 	/*-------------------------------------------------------*/
     #profile {
-		background-image:url(../images/header-shadow.png), url(../images/header-bg.png);
-		background:url(../images/header-bg.png) repeat-x\0/; /* For ie8 */
+		background-image:url(../images/header-shadow.png), url(../images/header-bg2.png);
+		background:url(../images/header-bg2.png) repeat-x\0/; /* For ie8 */
 		background-position:center bottom, left top;
 		background-repeat:repeat-x;
 		overflow:hidden;
-		background-color:#fdd42f;		
+		background-color:#696969;	/*#fdd42f */	
 	}
 	/* About */
 	.about {
@@ -190,7 +190,7 @@
 	.about p {
 		font-size:14px;
 		margin-top:15px;
-		color:#bc9010;
+		color:#fdd42f;/*#bc9010;*/
 		line-height:20px;
 	}
 	/* Personal info */
@@ -209,8 +209,8 @@
 		overflow: hidden;
 	}
 	.personal-info li label {
-		color:#a87f09;
-		background-color:#f4c024;
+		color:#d5d5d5;/*#a87f09;*/
+		background-color:#696969;/*#f4c024;*/
 		float:left;
 		padding:4px 7px;
 		border-radius: 3px;
@@ -220,7 +220,7 @@
 	.personal-info li span {
 		float:right;
 		width:170px;
-		color:#a87f09;
+		color:#fdd42f;/*#a87f09;*/
 	}
 	/*-------------------------------------------------------*/
 		/* Menu */
