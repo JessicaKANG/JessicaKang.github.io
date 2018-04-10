@@ -273,6 +273,7 @@
 		background-image:url(../images/contact-icon.png);
 		background-position:center 41px;
 	}
+
 	/* Active icons */
 		.tabs .active .tab-profile {
 		background-image:url(../images/profile-icon-active.png);
